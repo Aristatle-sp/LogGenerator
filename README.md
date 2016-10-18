@@ -1,6 +1,10 @@
 # LogGenerator
 This Application generates logs
 
+Update log4j.properties under /src/main/resources/log4j.properties to the path where you want to generate the log file.: 
+
+log4j.appender.file.File=/Users/username/Documents/demo/logs1/application.log
+
 Build :
 
 mvn assembly:assembly
