@@ -46,8 +46,6 @@ public class HelloExample{
 			
 		    public void run() {
 		        try {
-		        	
-		        	
 		        	runMe("PUT","/addItem","Chrome","400","Text");
 		        	runMe("GET","/viewBill.jpeg","IE","200","Image");
 		        	runMe("GET","/watchDemo.mov","Opera","300","Video");
@@ -98,91 +96,14 @@ public class HelloExample{
 		        	runMe("PUT","/addUser","Chrome","200","Text");
 		        	runMe("GET","/DeliveryVideo.mov","Chrome","200","Video");
 		        	runMe("PUT","/viewQuantity","IE","300","Text");
-		        	
-
-		        	
-//		        	System.out.println("Number of events generated -> "+50*count++);
-		    			//String formMethod, String uri, String userAgent, String responseCode, String parameter
-		    
-
-
-		        	
-//		        	runMe("GET", "/signon", "Firefox", "200", "Text");
-//					runMe("POST", "/homepage", "Chrome", "301", "Text");
-//					runMe("GET", "/watchVideo.mov", "Safari", "500", "Video");
-//					runMe("POST", "/downloadVideo/company.mov", "IE", "300", "Video");
-//					runMe("POST", "/submitComments", "Chrome", "400", "Text");
-//					runMe("GET", "/readComments", "Chrome", "300", "Text");
-//					runMe("POST", "/submitTags", "Chrome", "500", "Text");
-//					runMe("GET", "/downloadLogo/company.jpeg", "Chrome", "200", "Image");
-//					
-//					runMe("GET", "/signon", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "User Signing In");
-//					runMe("GET", "/homepage", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "Home Page");
-//					runMe("GET", "/watchVideo", "[Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko]", "200", "Watch Video");
-//					runMe("GET", "/downloadVideo/company.mov", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Video");
-//					runMe("POST", "/submitComments", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Submit Comments");
-//					runMe("GET", "/readComments", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Read Comments");
-//					runMe("POST", "/submitTags", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "Submit Tags");
-//					runMe("GET", "/downloadLogo/company.jpeg", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Logo");
-//					
-//					runMe("GET", "/signon", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "User Signing In");
-//					runMe("GET", "/homepage", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "Home Page");
-//					runMe("GET", "/watchVideo", "[Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko]", "200", "Watch Video");
-//					runMe("GET", "/downloadVideo/company.mov", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Video");
-//					runMe("POST", "/submitComments", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Submit Comments");
-//					runMe("GET", "/readComments", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Read Comments");
-//					runMe("POST", "/submitTags", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "Submit Tags");
-//					runMe("GET", "/downloadLogo/company.jpeg", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Logo");
-//					
-//					runMe("GET", "/signon", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "User Signing In");
-//					runMe("GET", "/homepage", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "Home Page");
-//					runMe("GET", "/watchVideo", "[Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko]", "200", "Watch Video");
-//					runMe("GET", "/downloadVideo/company.mov", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Video");
-//					runMe("POST", "/submitComments", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Submit Comments");
-//					runMe("GET", "/readComments", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Read Comments");
-//					runMe("POST", "/submitTags", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "Submit Tags");
-//					runMe("GET", "/downloadLogo/company.jpeg", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Logo");
-//					
-//					runMe("GET", "/signon", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "User Signing In");
-//					runMe("GET", "/homepage", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "Home Page");
-//					runMe("GET", "/watchVideo", "[Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko]", "200", "Watch Video");
-//					runMe("GET", "/downloadVideo/company.mov", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Video");
-//					runMe("POST", "/submitComments", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Submit Comments");
-//					runMe("GET", "/readComments", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Read Comments");
-//					runMe("POST", "/submitTags", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "Submit Tags");
-//					runMe("GET", "/downloadLogo/company.jpeg", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Logo");
-//					
-//					runMe("POST", "/as/as/", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "301", "Submit Comments");
-//					runMe("GET", "/add/a", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "302", "Read Comments");
-//					runMe("POST", "/proxy", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "305", "Submit Tags");
-//					runMe("GET", "/autosignon", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "400", "Download Logo");
-//					runMe("GET", "/autosignon", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "500", "Download Logo");
-//					runMe("GET", "/readComments", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "401", "Download Logo");
-//					runMe("GET", "/readComments/a", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "400", "Download Logo");
-//					runMe("GET", "/download", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "403", "Download Logo");
-//					runMe("POST", "/submitComments/s", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "404", "Submit Comments");
-//					runMe("GET", "/readCo", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "500", "Read Comments");
-//					runMe("POST", "/submitTags/alkks", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "502", "Submit Tags");
-//
-//					runMe("GET", "/list", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "list");
-//					runMe("GET", "/home", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "Home");
-//					runMe("GET", "/contact", "[Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko]", "200", "contact");
-//					runMe("GET", "/downloadVideo/company.mov", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Video");
-//					runMe("POST", "/products", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "products");
-//					runMe("GET", "/company", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "company");
-//					runMe("GET", "/logo.jpeg", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "logo");
-//					runMe("GET", "/downloadLogo/company.jpeg", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Logo");
-//					runMe("GET", "/downloadLogo/company.jpeg", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Logo");
 					
 				} catch (UnknownHostException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 		        
 		    }
 		});
 			
-			//if(i==2)break;
 		
 		}
 		
@@ -191,19 +112,6 @@ public class HelloExample{
 			 
 		}
 		System.out.println("\nFinished all threads");
-//		
-//		//for (int i = 0; i < loopctr; i++) {
-//			//System.out.println("Execute Service Accomplished");
-//			//executorService.shutdown();	
-//		//}
-//		
-//		long endTime   = System.currentTimeMillis();
-//		long totalTime = endTime - startTime;
-//		
-//		runMe("POST", "/signOut", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Sign Out");
-//
-//		System.out.println("Task Completed in totalTime " + totalTime);
-//		System.exit(0);
 			
 	}
 	
@@ -219,61 +127,7 @@ public class HelloExample{
 		MDC.put("responseCode",responseCode);
 		MDC.put("activity",parameter);
 		
-		//ThreadContext.put("logFileName", "David");
-		
-		//String threadId = String.valueOf(Thread.currentThread().getId());
-		//System.out.println("Thread Id " + threadId);
-	
-
-	//	if(logger.isInfoEnabled()){
-			logger.info("This is info : " + parameter);
-//		}
-		
+		logger.info("This is info : " + parameter);
 			
 	}
-	
-//	public static class MyRunnable implements Runnable {
-//
-// 
-//		@Override
-//		public void run() {
-//			try {
-//				System.out.println("Number of events generated -> "+count++);
-//				runMe("GET", "/signon", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "User Signing In");
-//				runMe("GET", "/homepage", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "Home Page");
-//				runMe("GET", "/watchVideo", "[Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko]", "200", "Watch Video");
-//				runMe("GET", "/downloadVideo/company.mov", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Video");
-//				runMe("POST", "/submitComments", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Submit Comments");
-//				runMe("GET", "/readComments", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Read Comments");
-//				runMe("POST", "/submitTags", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "Submit Tags");
-//				runMe("GET", "/downloadLogo/company.jpeg", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Logo");
-//				runMe("POST", "/as/as/", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "301", "Submit Comments");
-//				runMe("GET", "/add/a", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "302", "Read Comments");
-//				runMe("POST", "/proxy", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "305", "Submit Tags");
-//				runMe("GET", "/autosignon", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "400", "Download Logo");
-//				runMe("GET", "/autosignon", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "500", "Download Logo");
-//				runMe("GET", "/readComments", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "401", "Download Logo");
-//				runMe("GET", "/readComments/a", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "400", "Download Logo");
-//				runMe("GET", "/download", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "403", "Download Logo");
-//				runMe("POST", "/submitComments/s", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "404", "Submit Comments");
-//				runMe("GET", "/readCo", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "500", "Read Comments");
-//				runMe("POST", "/submitTags/alkks", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "502", "Submit Tags");
-//				runMe("GET", "/list", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "list");
-//				runMe("GET", "/home", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "Home");
-//				runMe("GET", "/contact", "[Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko]", "200", "contact");
-//				runMe("GET", "/downloadVideo/company.mov", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Video");
-//				runMe("POST", "/products", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "products");
-//				runMe("GET", "/company", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "company");
-//				runMe("GET", "/logo.jpeg", "[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36]", "200", "logo");
-//				runMe("GET", "/downloadLogo/company.jpeg", "[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]", "200", "Download Logo");
-//
-//				
-//			} catch (UnknownHostException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
-//			
-//		}
-//	}
-	
 }
